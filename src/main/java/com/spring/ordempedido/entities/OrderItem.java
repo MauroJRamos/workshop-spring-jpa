@@ -32,7 +32,7 @@ public class OrderItem implements Serializable {
 		this.price = price;
 	}
 
-	//O jsonIgnore evito o looping infinito entere o pedido e os intes de pedido
+	//O jsonIgnore evito o looping infinito entere o pedido e os ites de pedido
 	@JsonIgnore
 	public Order getOrder() {
 		return id.getOrder();
