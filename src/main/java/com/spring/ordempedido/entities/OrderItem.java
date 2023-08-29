@@ -14,6 +14,7 @@ import jakarta.persistence.Table;
 public class OrderItem implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	//Sempre que criar uma classe auxiliar com id composto e necessaria instanciar.
 	@EmbeddedId
 	private OrderItemPK id = new OrderItemPK();
 
@@ -31,6 +32,7 @@ public class OrderItem implements Serializable {
 		this.price = price;
 	}
 
+	//O jsonIgnore evito o looping infinito entere o pedido e os intes de pedido
 	@JsonIgnore
 	public Order getOrder() {
 		return id.getOrder();
