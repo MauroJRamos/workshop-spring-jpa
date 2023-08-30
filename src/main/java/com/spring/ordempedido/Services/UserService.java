@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.spring.ordempedido.Services.exceptions.ResourceNotFoundException;
 import com.spring.ordempedido.entities.User;
 import com.spring.ordempedido.repositories.UserRepository;
 
@@ -20,11 +21,10 @@ public class UserService {
 		return repository.findAll();
 	}
 	
-    public User findById(Long id) {
-    	Optional<User> obj = repository.findById(id);
-		return obj.get();   
-	   
-   }
+	public User findById(Long id) {
+		Optional<User> obj = repository.findById(id);
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
+	}
     
     public User insert(User obj) {
 		return repository.save(obj);
