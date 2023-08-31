@@ -4,7 +4,7 @@ FROM openjdk:17
 VOLUME /tmp
 
 # Copie o arquivo JAR do projeto para o diretório de trabalho
-COPY target/*.jar app.jar
+ADD ./target/*.jar app.jar
 
 # Defina o comando para executar o aplicativo Spring Boot
 ENTRYPOINT ["java", "-jar", "/app.jar"]
