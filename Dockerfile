@@ -1,5 +1,5 @@
 # Use a imagem base do Java
-FROM eclipse_temurin:17-jdk-alpine
+FROM openjdk:17
 
 VOLUME /tmp
 
