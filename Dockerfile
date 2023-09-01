@@ -21,7 +21,7 @@ RUN mvn package -DskipTests
 FROM openjdk:17-jdk-slim
 
 # Copie o JAR construído da primeira fase para a segunda fase
-COPY --from=build /app/target/your-app-name.jar /app/app.jar
+COPY --from=build /app/target/app.jar /app/app.jar
 
 VOLUME /tmp
 
