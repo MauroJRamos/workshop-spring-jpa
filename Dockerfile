@@ -1,4 +1,3 @@
-# Use a imagem base do Java
 # Use uma imagem base com o JDK e Maven instalados
 FROM maven:3.8.4-openjdk-17-slim AS build
 
@@ -22,11 +21,6 @@ FROM openjdk:17-jdk-slim
 
 # Copie o JAR construído da primeira fase para a segunda fase
 COPY --from=build /app/target/app.jar /app/app.jar
-
-VOLUME /tmp
-
-# Copie o arquivo JAR do projeto para o diretório de trabalho
-ADD ./target/*.jar app.jar
 
 # Defina o comando para executar o aplicativo Spring Boot
 CMD ["java", "-jar", "/app/app.jar"]
