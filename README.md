@@ -48,7 +48,7 @@ Projeto web services com Spring Boot e JPA / Hibernate
 * Na opção NEW clicar em webservices e vincular ao repo do projeto
   ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/94cbb858-53fa-492e-8b48-bce771e4ad91)
 
-* Em Environment criar a variavel, a string deve conter as seguinte informações:  DATABASE_URL = jdbc:postgresql://[hostname]:[port]/[database_name]?user=[username]&password=[password] lemrando que estas informações vc vai pegar na banco que foi criado na etapa anterior.
+* Em Environment criar a variavel, a string deve conter as seguinte informações:  DATABASE_URL = jdbc:postgresql://[hostname]:[port]/[database_name]?user=[username]&password=[password] lemrando que estas informações vc vai pegar no banco criado na etapa anterior.
 
 
 * Para implantar no servidor o arquivo dockerfile deve ter as seguintes instruções
