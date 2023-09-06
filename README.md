@@ -21,12 +21,12 @@ Projeto web services com Spring Boot e JPA / Hibernate
 ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/410204d4-6018-4812-9afa-44064b8d23d7)
 
 ### Postgres
-* Adicionar a dependencia nno pom.xml
+* Adicionar a dependencia no pom.xml
   
   ```<dependency>
        <groupId>org.postgresql</groupId>
        <artifactId>postgresql</artifactId>
        <scope>runtime</scope>
-  </dependency>```
+     </dependency>
 
 
