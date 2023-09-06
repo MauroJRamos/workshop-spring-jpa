@@ -41,7 +41,7 @@ Projeto web services com Spring Boot e JPA / Hibernate
 ### Implantação no Render.io
 
 * Abrir uma conta no render.com
-* Na opção NEW crie um banco com o postgres
+* Na opção NEW crie um banco com o postgres, obs: o bancto tem o tempo de avaliação por 3 meses, apos será delatado no plano free
   ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/8ff3c17b-a31a-404e-8002-bb9dbcd609ce)
 
 * para implantar no servidor o arquivo dockerfile deve ter as seguintes instruções
