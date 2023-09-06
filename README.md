@@ -31,3 +31,10 @@ Projeto web services com Spring Boot e JPA / Hibernate
      </dependency>
   ```
 
+  ## Autor:
+ 
+ Mauro José Ramos.
+ 
+ Github: https://github.com/MauroJRamos
+ Linkedin: https://www.linkedin.com/in/mauro-ramos-70758b56/
+
