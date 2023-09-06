@@ -44,6 +44,10 @@ Projeto web services com Spring Boot e JPA / Hibernate
 * Na opção NEW crie um banco com o postgres, obs: o bancto tem o tempo de avaliação por 3 meses, apos será delatado no plano free
   ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/8ff3c17b-a31a-404e-8002-bb9dbcd609ce)
 
+* Na opção NEW clicar em webservices
+  ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/94cbb858-53fa-492e-8b48-bce771e4ad91)
+
+
 * para implantar no servidor o arquivo dockerfile deve ter as seguintes instruções
 ```
 # Use uma imagem base com o JDK e Maven instalados
