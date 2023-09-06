@@ -15,4 +15,4 @@ app ordem-pedido
 * Mapear as entidades utilizando a JPA.
 
 ### 3- Modelo Concetual
-![Web 1](https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/sds3-mc.png)
+![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/97d1be90-afd3-441d-a014-e90401616132)
