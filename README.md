@@ -42,7 +42,8 @@ Projeto web services com Spring Boot e JPA / Hibernate
 
 * Abrir uma conta no
 * para implantar no servidor o arquivo dockerfile deve ter as seguintes instruções
-  '''# Use uma imagem base com o JDK e Maven instalados
+```
+# Use uma imagem base com o JDK e Maven instalados
 FROM maven:3.8.4-openjdk-17-slim AS build
 
 # Defina o diretório de trabalho no contêiner
@@ -70,6 +71,7 @@ COPY --from=build /app/target/ordem-pedido-0.0.1-SNAPSHOT.jar /app/app.jar
 CMD ["java", "-jar", "/app/app.jar"]
 
 EXPOSE 8080
+```
 
 ## Autor:
  
