@@ -16,3 +16,7 @@ app ordem-pedido
 
 ### 3- Modelo Concetual
 ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/97d1be90-afd3-441d-a014-e90401616132)
+
+### 4- Domain Service 
+![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/410204d4-6018-4812-9afa-44064b8d23d7)
+
