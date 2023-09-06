@@ -38,7 +38,7 @@ Projeto web services com Spring Boot e JPA / Hibernate
        <scope>runtime</scope>
      </dependency>
   ```
-### Implantação no Render.io
+### Implantação no Render.com
 
 * Abrir uma conta no render.com
 * Na opção NEW crie um banco com o postgres, obs: o bancto tem o tempo de avaliação por 3 meses, apos será delatado no plano free
@@ -46,6 +46,9 @@ Projeto web services com Spring Boot e JPA / Hibernate
 
 * Na opção NEW clicar em webservices
   ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/94cbb858-53fa-492e-8b48-bce771e4ad91)
+
+* em Environment criar a variavel, a string deve conter as seguinte informações: 
+  -> DATABASE_URL = jdbc:postgresql://[hostname]:[port]/[database_name]?user=[username]&password=[password]
 
 
 * para implantar no servidor o arquivo dockerfile deve ter as seguintes instruções
