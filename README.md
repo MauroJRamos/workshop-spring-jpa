@@ -20,6 +20,13 @@ Projeto web services com Spring Boot e JPA / Hibernate
 ### 4- Domain Service 
 ![image](https://github.com/MauroJRamos/workshop-spring-jpa/assets/82981926/410204d4-6018-4812-9afa-44064b8d23d7)
 
+### Checklist: 
+ Spring Initializr 
+o Maven 
+o Java 17 
+o Packing JAR 
+o Dependencies: Spring Web 
+
 ### Postgres
 * Adicionar a dependencia no pom.xml
   
