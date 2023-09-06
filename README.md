@@ -23,7 +23,8 @@ Projeto web services com Spring Boot e JPA / Hibernate
 ### Postgres
 * Adicionar a dependencia no pom.xml
   
-  ```<dependency>
+  ```
+    <dependency>
        <groupId>org.postgresql</groupId>
        <artifactId>postgresql</artifactId>
        <scope>runtime</scope>
