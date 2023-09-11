@@ -1,7 +1,7 @@
 # App workshop-spring-jpa
 
 ### Projeto
-Projeto web services com Spring Boot e JPA / Hibernate
+Projeto web services com Spring Boot e JPA / Hibernate. 
 
 ### Objetivos do projeto:
 
